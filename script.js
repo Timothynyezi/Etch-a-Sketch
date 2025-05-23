@@ -8,4 +8,10 @@ for(let i = 0; i < 256; i++) {
 
     // Add the grid-square class
     gridSquare.className = "grid-square"
+
+
+    // Add a data attribute with the position
+    const row = Math.floor(i / 16) + 1
+    const col = (i % 16) + 1
+    gridSquare.setAttribute("data-position", `${row}-${col}`)
 }
