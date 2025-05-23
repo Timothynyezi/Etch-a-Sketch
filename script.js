@@ -14,4 +14,10 @@ for(let i = 0; i < 256; i++) {
     const row = Math.floor(i / 16) + 1
     const col = (i % 16) + 1
     gridSquare.setAttribute("data-position", `${row}-${col}`)
+
+    // Add click event for interactivity
+    gridSquare.addEventListener("Click", function () {
+        this.style.backgroundColor = this.style.backgroundColor === "rgb(40, 167, 69)" ? "fff" :
+         "#28a745"
+    })
 }
