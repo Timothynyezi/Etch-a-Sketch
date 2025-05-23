@@ -20,4 +20,9 @@ for(let i = 0; i < 256; i++) {
         this.style.backgroundColor = this.style.backgroundColor === "rgb(40, 167, 69)" ? "fff" :
          "#28a745"
     })
+
+    // Append the div to the container
+    container.appendChild(gridSquare)
 }
+
+console.log("Grid created successfully ! 256 squares generated.")
