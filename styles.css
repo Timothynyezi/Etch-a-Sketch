@@ -27,3 +27,7 @@ body{
     transition: background-color 0.2s ease;
     cursor: pointer;
 }
+
+.grid-square:hover {
+    background-color: #007bff;
+}
