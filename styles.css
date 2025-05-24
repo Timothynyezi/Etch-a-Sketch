@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 2px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-square {
+    width: 25px;
+    height: 25px;
+    background-color: #ffff;
+    border: 1px solid #ddd;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
