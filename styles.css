@@ -31,3 +31,12 @@ body{
 .grid-square:hover {
     background-color: #007bff;
 }
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+    margin: 0;
+}
