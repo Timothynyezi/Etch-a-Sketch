@@ -22,6 +22,7 @@ for(let i = 0; i < 256; i++) {
     })
     // Add click event for interactivity
     gridSquare.addEventListener("Click", function () {
+        // Toggle between green and white when clicked
         
     })
 
