@@ -23,9 +23,13 @@ for(let i = 0; i < 256; i++) {
     // Add click event for interactivity
     gridSquare.addEventListener("Click", function () {
         // Toggle between green and white when clicked
-        if(this.style.background === "rgb(40, 167, 69)"{
-            
-        })
+        if(this.style.backgroundColor === "rgb(40, 167, 69)") {
+            this.style.backgroundColor = "#fff"
+            this.classList.remove("hovered")
+        } else {
+            this.style.backgroundColor = "#28a745"
+            this.style.classList.remove("hovered")
+        }
     })
 
     // Append the div to the container
