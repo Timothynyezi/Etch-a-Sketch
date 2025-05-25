@@ -22,8 +22,7 @@ for(let i = 0; i < 256; i++) {
     })
     // Add click event for interactivity
     gridSquare.addEventListener("Click", function () {
-        this.style.backgroundColor = this.style.backgroundColor === "rgb(40, 167, 69)" ? "fff" :
-         "#28a745"
+        
     })
 
     // Append the div to the container
