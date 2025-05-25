@@ -17,7 +17,8 @@ for(let i = 0; i < 256; i++) {
 
     // Add an event listener for the trail effect
     gridSquare.addEventListener("mouseenter", function (){
-        
+        // When mouse enters the square, add the hovered class
+        this.classList.add("hoverd")
     })
     // Add click event for interactivity
     gridSquare.addEventListener("Click", function () {
