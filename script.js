@@ -15,6 +15,10 @@ for(let i = 0; i < 256; i++) {
     const col = (i % 16) + 1
     gridSquare.setAttribute("data-position", `${row}-${col}`)
 
+    // Add an event listener for the trail effect
+    gridSquare.addEventListener("mouseenter", function (){
+        
+    })
     // Add click event for interactivity
     gridSquare.addEventListener("Click", function () {
         this.style.backgroundColor = this.style.backgroundColor === "rgb(40, 167, 69)" ? "fff" :
