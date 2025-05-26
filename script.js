@@ -17,6 +17,8 @@ function createGrid(gridSize) {
     gridTittle.textContent = `${gridSize}x${gridSize} Grid(${totalSquare} squares)`
 
     // Calculate square size to maintain 400px total width
+    const containerWidth = 400
+    const squareSize = containerWidth / gridSize
 }
 // create 256 divs (16x16)
 for(let i = 0; i < 256; i++) {
