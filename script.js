@@ -26,7 +26,7 @@ function createGrid(gridSize) {
         const gridSqaure = document.createElement("div")
          
         // Add the grid-square class
-        
+        gridSqaure.className = "grid-square"
     }
 }
 
