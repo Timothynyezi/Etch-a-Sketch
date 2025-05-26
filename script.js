@@ -24,6 +24,8 @@ function createGrid(gridSize) {
     for (let i = 0; i < totalSquares; i++) {
         // Create a new div element
         const gridSqaure = document.createElement("div")
+         
+        // Add the grid-square class
     }
 }
 
