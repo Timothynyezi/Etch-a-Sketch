@@ -32,7 +32,13 @@ function createGrid(gridSize) {
         gridSqaure.style.width = `${squareSize}px`
         gridSqaure.style.height = `${squareSize}px`
 
+        // Calculate position for data attribute
+        const row = Math.floor( i / gridSize) + 1
+        const col = (i % gridSize) + 1
+
         
+
+
     }
 }
 
