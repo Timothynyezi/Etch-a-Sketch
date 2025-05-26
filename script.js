@@ -13,7 +13,7 @@ function createGrid(gridSize) {
     container.innerHTML = ""
 
     // Update the title
-    const totalSquare = gridSize * gridSize
+    const totalSquares = gridSize * gridSize
     gridTittle.textContent = `${gridSize}x${gridSize} Grid(${totalSquare} squares)`
 
     // Calculate square size to maintain 400px total width
@@ -21,6 +21,10 @@ function createGrid(gridSize) {
     const squareSize = containerWidth / gridSize
 
     // Create the specified number of squares
+    for (let i = 0; i < totalSquares; i++) {
+        // Create a new div element
+        
+    }
 }
 
 
