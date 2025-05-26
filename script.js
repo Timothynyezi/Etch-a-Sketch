@@ -44,7 +44,9 @@ function createGrid(gridSize) {
         })
         
         // Add click event for additional interactivity
-        
+        gridSqaure.addEventListener("click", function () {
+            
+        })
 
 
     }
