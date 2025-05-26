@@ -29,6 +29,9 @@ function createGrid(gridSize) {
         gridSqaure.className = "grid-square"
 
         // Set the size of each square dynamically
+        gridSqaure.style.width = `${squareSize}px`
+        gridSqaure.style.height = `${squareSize}px`
+
         
     }
 }
