@@ -23,7 +23,7 @@ function createGrid(gridSize) {
     // Create the specified number of squares
     for (let i = 0; i < totalSquares; i++) {
         // Create a new div element
-        
+        const gridSqaure = document.createElement("div")
     }
 }
 
