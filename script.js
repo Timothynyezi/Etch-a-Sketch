@@ -39,6 +39,9 @@ function createGrid(gridSize) {
         gridSqaure.setAttribute("data-position", `${row}-${col}`)
 
         //Add hover event listener for the trail effect
+        gridSqaure.addEventListener("mouseenter", function () {
+            this.classList.add("hovered")
+        })
 
 
     }
