@@ -36,7 +36,9 @@ function createGrid(gridSize) {
         const row = Math.floor( i / gridSize) + 1
         const col = (i % gridSize) + 1
 
-        
+        gridSqaure.setAttribute("data-position", `${row}-${col}`)
+
+        //Add hover event listener for the trail effect
 
 
     }
