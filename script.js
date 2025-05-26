@@ -1,6 +1,7 @@
 // Get the container element
 const container = document.getElementById("gridContainer");
-
+const gridTittle = document.getElementById("gridTittle")
+const newGridBtn = document.getElementById("newGridBtn")
 // create 256 divs (16x16)
 for(let i = 0; i < 256; i++) {
     // create a new div element
