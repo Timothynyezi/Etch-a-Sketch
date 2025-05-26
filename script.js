@@ -45,7 +45,10 @@ function createGrid(gridSize) {
         
         // Add click event for additional interactivity
         gridSqaure.addEventListener("click", function () {
-            
+            if (this.style.backgroundColor === "rgb(40, 167, 69") {
+                this.style.backgroundColor = "#fff"
+                this.classList.remove("hovered")
+            }
         })
 
 
