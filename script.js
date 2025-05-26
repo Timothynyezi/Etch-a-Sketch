@@ -48,6 +48,9 @@ function createGrid(gridSize) {
             if (this.style.backgroundColor === "rgb(40, 167, 69") {
                 this.style.backgroundColor = "#fff"
                 this.classList.remove("hovered")
+            } else {
+                this.style.backgroundColor = "#28a745"
+                this.classList.remove("hovered")
             }
         })
 
