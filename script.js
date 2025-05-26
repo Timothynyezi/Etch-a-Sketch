@@ -42,6 +42,9 @@ function createGrid(gridSize) {
         gridSqaure.addEventListener("mouseenter", function () {
             this.classList.add("hovered")
         })
+        
+        // Add click event for additional interactivity
+        
 
 
     }
