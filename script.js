@@ -2,6 +2,22 @@
 const container = document.getElementById("gridContainer");
 const gridTittle = document.getElementById("gridTittle")
 const newGridBtn = document.getElementById("newGridBtn")
+
+
+// Default grid size
+let currentGridSize = 16
+
+// Function to create a grid with specified size
+function createGrid(gridSize) {
+    // clear existing
+    container.innerHTML = ""
+
+    // Update the title
+    const totalSquare = gridSize * gridSize
+    gridTittle.textContent = `${gridSize}x${gridSize} Grid(${totalSquare} squares)`
+
+    // Calculate square size to maintain 400px total width
+}
 // create 256 divs (16x16)
 for(let i = 0; i < 256; i++) {
     // create a new div element
